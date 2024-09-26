@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .update-recipe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\Users\CUI\Downloads\crud-operation-with-react.js-axios-main\public\image\bg3.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    padding: 20px;
+  }
+  
+  .update-form {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background for better readability */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(137, 136, 136, 0.2);
+    width: 400px; /* Set a max width for the form */
+  }
+  

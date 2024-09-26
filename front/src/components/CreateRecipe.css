@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .create-recipe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\Users\CUI\Downloads\crud-operation-with-react.js-axios-main\public\image\bg2.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    padding: 20px;
+  }
+  
+  .create-form {
+    background: rgba(67, 66, 66, 0.9); /* Slightly less transparent for better readability */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Set a max width for the form */
+  }
+  
+  input,
+  textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px; /* Increase margin for better spacing */
+    width: 100%;
+  }
+  
+  button {
+    background-color: #f11946; /* Match the LoadingBar color */
+    color: white;
+    font-weight: bold;
+  }
+  
